@@ -1,9 +1,8 @@
-// Modelo Producto
 package edu.softech.MySpa.modelo;
 
 /**
  *
- * @author Víctor
+ * @author Víctor Alejandro Santillán Martínez
  */
 public class Producto {
     
@@ -13,11 +12,6 @@ public class Producto {
     private String marca;
     private int estatus;
     private float precioUso;
-    /*
-    Constructores para el objeto Producto
-    Existe un constructor para cada o casos en concreto:
-    1. 
-    */
     
     public Producto(){
     }
