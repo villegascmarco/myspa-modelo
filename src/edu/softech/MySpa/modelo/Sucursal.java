@@ -1,4 +1,4 @@
-package edu.softech.InterfazJavaFX.modelo;
+package edu.softech.MySpa.modelo;
 
 public class Sucursal {
 
