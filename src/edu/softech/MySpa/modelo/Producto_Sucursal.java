@@ -6,7 +6,6 @@ package edu.softech.MySpa.modelo;
  */
 public class Producto_Sucursal {
     
-    private int idProducto_Sucursal;
     private Sucursal sucursal;
     private Producto producto;
     private int stock;
@@ -14,19 +13,10 @@ public class Producto_Sucursal {
     public Producto_Sucursal(){
     }
 
-    public Producto_Sucursal(int idProducto_Sucursal, Sucursal sucursal, Producto producto, int stock) {
-        this.idProducto_Sucursal = idProducto_Sucursal;
+    public Producto_Sucursal(Sucursal sucursal, Producto producto, int stock) {
         this.sucursal = sucursal;
         this.producto = producto;
         this.stock = stock;
-    }
-
-    public int getIdProducto_Sucursal() {
-        return idProducto_Sucursal;
-    }
-
-    public void setIdProducto_Sucursal(int idProducto_Sucursal) {
-        this.idProducto_Sucursal = idProducto_Sucursal;
     }
 
     public Sucursal getSucursal() {
@@ -51,8 +41,5 @@ public class Producto_Sucursal {
 
     public void setStock(int stock) {
         this.stock = stock;
-    }
-    
-    
-        
+    }        
 }
