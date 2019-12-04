@@ -19,6 +19,12 @@ public class Empleado extends Persona {
     private String rutaFOto;
     private Usuario usuario;
 
+    @Override
+    public String toString()
+    {
+        return "Empleado{" + "idEmpleado=" + idEmpleado + ", numeroEmpleado=" + numeroEmpleado + ", puesto=" + puesto + ", estatus=" + estatus + ", foto=" + foto + ", rutaFOto=" + rutaFOto + ", usuario=" + usuario + '}';
+    }
+
     public Empleado() {
         // inicializa objeto
         usuario = new Usuario(); // defecto campos vacíos
